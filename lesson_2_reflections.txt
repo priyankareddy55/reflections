@@ -1,0 +1,11 @@
+What happens when you initialize a git repository? Why do you need to do it?
+	A new .git hidden repository is created in the current directory with the same name as the directory. But any files present in there will be untracked until you add them to the staging area and commit.
+
+How can you use the staging area to make sure that you have one commit per logical change?
+	You add your uncommitted file in the directory to the staging area and don't commit it until you made enough changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to introduce a completely new context in your project or when you want to experiment with some part of your code you can always do that using branching and later if you succeed in gaining what you need, you can merge it with other branches or changes that are later made.
+
+Automatic or manual conflict resolving while merging?
+	Sometimes automatic conflict resolving can be very helpful as it is quick and efficient. But a machine can be dumb and can result in some ridiculous outputs. At that point we may want to resolve the conflicts ourselves. So we also need manual conflict resolving.
