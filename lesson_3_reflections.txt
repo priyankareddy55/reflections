@@ -1,2 +1,14 @@
 When would you want to use a remote repository rather than keeping all your work local?
   When you want to share your results to others as well as control what you want to share.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forking is the process similar to cloning, but is done from one github repository to another github repository. Cloning can be done between any two repositories in which one can be a github repository and the other can be a local computer repository and sometimes the two repositories can be local computer repositories.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	So that we can always keep track of local and remote changes and judg which to keep and which to dicard or if we need both, how to merge.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	I think collabroationg using github is easier and more comfortable now that we can connect across different computer and comfortably collaborate from distance.But if one seeks to work with peers in the same office oe can prefer git for simplicity.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	Because whn you want to directly make changes to the master you may want to consider showing the changes to you colleagues and take approval from them before changing the master. So we show how the merged version would be in the test branch and then put up a pull request to merge the branch with master after their approval.
